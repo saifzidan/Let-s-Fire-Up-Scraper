@@ -31,3 +31,4 @@ for item in items:
         x = open(txt, "w", encoding="utf-8")
         x.write(str(element.get_attribute("outerHTML")) + "\n")
         x.close()
+driver.close()

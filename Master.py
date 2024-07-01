@@ -11,3 +11,4 @@ x = open ("Links.txt" , "w")
 for element in elements:
     x.writelines(element.get_property("href")+'\n')
 x.close()
+driver.close()
